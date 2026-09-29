@@ -1,8 +1,8 @@
-# Dinomaly2
+# Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection
 
 PyTorch Implementation of
-"One Dinomaly2 Detect Them All: A Unified Framework for Full-Spectrum Unsupervised Anomaly Detection"
-([Arxiv 2025](https://arxiv.org/abs/2510.17611)), the extended version of [Dinomaly](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf) (v1, CVPR2025)
+"Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection"
+[[arxiv 2025](https://arxiv.org/abs/2510.17611)], the extended version of [Dinomaly](https://openaccess.thecvf.com/content/CVPR2025/papers/Guo_Dinomaly_The_Less_Is_More_Philosophy_in_Multi-Class_Unsupervised_Anomaly_CVPR_2025_paper.pdf) (v1, CVPR2025)
 
 
 - **Give me a ⭐️ if you like it.**
@@ -16,7 +16,6 @@ PyTorch Implementation of
  - **_05.2026_**: We now support super-large multi-class datasets: [Real-IAD_Variety](https://huggingface.co/datasets/Real-IAD/Real-IAD_Variety/tree/main) (160 classes)
 and [ADNet](https://huggingface.co/datasets/linglingling009/ADNet) (380 classes). How great is that!🚀
 
-![img.png](im/large_dataset.png)
 
 ## 1. Environments
 
@@ -238,7 +237,7 @@ Great thanks to ADer, adeval, anomalib, and many other repositories (if I missed
 }
 
 @article{guo2025one,
-  title={One Dinomaly2 Detect Them All: A Unified Framework for Full-Spectrum Unsupervised Anomaly Detection},
+  title={Dinomaly2: A Unified Framework for Unsupervised Image Anomaly Detection},
   author={Guo, Jia and Lu, Shuai and Fan, Lei and Li, Zelin and Di, Donglin and Song, Yang and Zhang, Weihang and Zhu, Wenbing and Yan, Hong and Chen, Fang and Li, Huiqi and Liao, Hongen},
   journal={arXiv preprint arXiv:2510.17611},
   year={2025}
